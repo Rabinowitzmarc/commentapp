@@ -52,7 +52,6 @@ function hideFunction() {     //function for hide button to hide comments, usern
 
 function deleteFunction(){  //fuction that deletes the entire li from the screen
   list.parentNode.removeChild(list);
-
 };
 
 showButton.addEventListener('click', showFunction);

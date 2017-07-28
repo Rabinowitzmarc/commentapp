@@ -1,7 +1,13 @@
 body {
   text-align: center;
   background-image: url('../img/city.gif');
-  background-size: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-size: cover;
+  height: 1200px;
+  width: 100%;
+
 }
 
 h1 {
@@ -15,6 +21,11 @@ li {
   list-style: none;
   margin-top: 10px;
   text-align: center;
+  background: none;
+}
+
+li:nth-child(even) p {
+  color: pink;
 }
 
 .box {
@@ -28,9 +39,6 @@ li {
   margin: 0 10px;
 }
 
-.hidebutton {
-
-}
 
 .h3, h3 {
   text-align: left;
@@ -44,4 +52,17 @@ p {
   height: 200px;
   display: block;
   margin: 0 auto;
+}
+
+li:nth-child(even) p {
+  color: pink;
+}
+
+.list-group-item {
+  background: none;
+  border: none;
+}
+
+.form-control {
+  background: none;
 }
